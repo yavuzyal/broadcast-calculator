@@ -4,3 +4,9 @@
   border: 5px solid #eed1ff;
   margin: 0 5%;
 }
+
+hr{
+  border-width:10px;
+  border-top: dotted 5px red;
+  width: 50%;
+}
