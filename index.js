@@ -11,7 +11,7 @@ $("#calcButton").click(function(){
   }
 
   else if (!$.trim(subnetMask).match(pattern)) {
-    $("#subnetMask").popover('show');
+    alert('Please enter a valid Subnet Mask!');
   }
 
   else{
